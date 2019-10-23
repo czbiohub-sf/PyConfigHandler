@@ -1,4 +1,4 @@
-# PyMotors
+# PyConfighandler
 
 ## Introduction
 This repository contains Python utilities for handling configuration files in CZ Biohub Bioengineering team applications. It primarily builds off of the native configparser module built into Python and adds extra functionality. All utilities support Python 3.7+.
