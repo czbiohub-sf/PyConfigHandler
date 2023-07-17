@@ -52,7 +52,7 @@ class ConfigurationParser(unittest.TestCase):
         config, opts = validateConfig(self.config_path,
                                       REQUIRED_DEFAULT_FIELDS)
         test_string = config[opts[-1]]['TEST_EXTENDED']
-        self.assertEqual(test_string, '/home/alone.py')
+        self.assertEqual(test_string, '/home/fake.py')
 
     def test_type_conversions(self):
         config, opts = validateConfig(self.config_path,
